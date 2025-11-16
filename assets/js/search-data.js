@@ -44,11 +44,33 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+        },{id: "post-unreal-robotics-lab-url",
+        
+          title: "Unreal Robotics Lab (URL)",
+        
+        description: "Unreal Robotics Lab (URL) release information",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/url/";
+          
+        },
+      },{id: "post-unreal-robotics-lab",
+        
+          title: "Unreal Robotics Lab",
+        
+        description: "Unreal Robotics Lab (URL)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/unrealroboticslab/";
+          
+        },
+      },{id: "projects-unreal-robotics-lab-url",
+          title: 'Unreal Robotics Lab (URL)',
+          description: "URL Unreal Robotics Lab",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/unrealroboticslab/";
             },},{
         id: 'social-email',
         title: 'email',
