@@ -28,3 +28,5 @@ latest_posts:
 ---
 
 Current PhD student at UCL in the RPL lab.
+
+For questions about the Unreal Robotics Lab (URL) - please contact us by email.
