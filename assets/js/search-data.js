@@ -52,18 +52,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2015/url/";
-          
-        },
-      },{id: "post-unreal-robotics-lab",
-        
-          title: "Unreal Robotics Lab",
-        
-        description: "Unreal Robotics Lab (URL)",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/unrealroboticslab/";
+            window.location.href = "/blog/2025/url/";
           
         },
       },{id: "projects-unreal-robotics-lab-url",
