@@ -7,13 +7,13 @@ first_name: Jonathan (Buzz)
 last_name: Embley-Riches
 # contact_note: >
 #   You can even add aV
-# description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  # A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  Jonathan (Buzz) Embley-Riches -- PhD student at UCL RPL and creator of Unreal Robotics Lab (URLab), an open-source Unreal Engine 5 plugin that embeds the MuJoCo physics engine for high-fidelity, photorealistic robotics simulation, sim-to-real transfer, and synthetic data generation.
 # footer_text: >
 #   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Unreal Robotics Lab, unreal robotics lab, UnrealRoboticsLab, unrealroboticslab, url, URL, jonathan, Buzz 
+keywords: Unreal Robotics Lab, UnrealRoboticsLab, URLab, URL, Unreal Engine robotics, Unreal Engine MuJoCo, MuJoCo Unreal plugin, UE5 MuJoCo, UE5 robotics simulator, photorealistic robotics simulation, sim-to-real, sim2real, synthetic data generation, MJCF import, robot learning, reinforcement learning simulator, ROS 2 Unreal, Jonathan Embley-Riches, Buzz Embley-Riches, UCL RPL
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 # icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -63,8 +63,8 @@ max_width: 930px
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: /assets/img/url_hero.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
