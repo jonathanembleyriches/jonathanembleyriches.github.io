@@ -44,31 +44,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-unreal-robotics-lab",
+        },{id: "post-announcing-unreal-robotics-lab-urlab-mujoco-physics-in-unreal-engine-5",
         
-          title: "Unreal Robotics Lab",
+          title: "Announcing Unreal Robotics Lab (URLab) -- MuJoCo Physics in Unreal Engine 5",
         
-        description: "Unreal Robotics Lab (URL)",
+        description: "Alpha release of Unreal Robotics Lab (URLab), an open-source Unreal Engine 5 plugin that embeds the MuJoCo physics engine for high-fidelity, photorealistic robotics simulation and sim-to-real research.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/unrealroboticslab/";
+            window.location.href = "/blog/2026/unrealroboticslab/";
           
         },
-      },{id: "post-unreal-robotics-lab-url",
-        
-          title: "Unreal Robotics Lab (URL)",
-        
-        description: "Unreal Robotics Lab (URL) release information",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/url/";
-          
-        },
-      },{id: "projects-unreal-robotics-lab-url",
-          title: 'Unreal Robotics Lab (URL)',
-          description: "URL Unreal Robotics Lab",
+      },{id: "projects-unreal-robotics-lab-urlab",
+          title: 'Unreal Robotics Lab (URLab)',
+          description: "An open-source Unreal Engine 5 plugin that embeds the MuJoCo physics engine for high-fidelity, photorealistic robotics simulation, sim-to-real transfer, and synthetic data generation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/unrealroboticslab/";
             },},{
